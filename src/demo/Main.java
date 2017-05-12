@@ -1,10 +1,13 @@
+package demo;
+
 /**
  * Created by santi on 20/01/2017.
  */
 
-public class Aplicacio {
+public class Main {
 
     public static void main (String[] args) {
+
         System.out.print("Numero alumnes?");
         int n = Keyboard.readInt();
         if (n>0) {

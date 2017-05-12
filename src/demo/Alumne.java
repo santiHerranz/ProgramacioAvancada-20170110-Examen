@@ -1,3 +1,5 @@
+package demo;
+
 /**
  * Created by santi on 20/01/2017.
  */
@@ -25,11 +27,12 @@ public class Alumne {
     }
 
     public String toString() {
-        String s = "";
+/*        String s = "";
         s += "  nom: "+ nom +" \n";
         s += "  alcada: "+ alcada +" \n";
         s += "  numeracioPeu: "+ numeracioPeu +" \n";
-        return  "Alumne: {\n"+ s +"}";
+        return  "demo.Alumne: {\n"+ s +"}";*/
+        return String.format("%s: %.1f cm %d", nom, alcada, numeracioPeu);
     }
 
 }

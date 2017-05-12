@@ -1,3 +1,5 @@
+package demo;
+
 /**
  * Created by santi on 20/01/2017.
  */
@@ -36,7 +38,7 @@ public class ParellEsqui {
         s += "  llargaria: "+ llargaria +" \n";
         s += "  numeracioPeuMaxim: "+ numeracioPeuMaxim +" \n";
         s += "  numeracioPeuMinim: "+ numeracioPeuMinim +" \n";
-        return  "ParellEsqui: {\n"+ s +"}";
+        return  "demo.ParellEsqui: {\n"+ s +"}";
     }
 
 

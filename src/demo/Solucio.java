@@ -1,3 +1,5 @@
+package demo;
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -36,6 +38,10 @@ Farem servir el marcatge per indicar les parelles d'esquis que ja estan assignad
     private ParellEsqui totsEsquis[];
     private Parell solucio[];
     private Parell millor[];
+
+    public String mostraAlumnes() {
+        return Arrays.toString(totsAlumnes);
+    }
 
 
     private class Parell {
